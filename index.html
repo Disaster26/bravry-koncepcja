@@ -4,34 +4,34 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<title>BRAVRY - rękawice bramkarskie | oficjalny sklep</title>
-<meta name="description" content="Oficjalny sklep marki BRAVRY: rękawice bramkarskie roll finger, negative i hybrid, odzież bramkarska. Wizualizacja koncepcyjna.">
+<title>Rękawice Bramkarskie - sklep dla bramkarzy | BRAVRY i inne marki</title>
+<meta name="description" content="Sklep Rękawice Bramkarskie: rękawice negative, roll finger, hybrid i flat, akcesoria dla bramkarzy, marka własna BRAVRY i #bravrycraft - rękawice z własnym projektem od 1 pary. Wizualizacja koncepcyjna.">
 <meta name="theme-color" content="#ffffff">
-<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="img/znak.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=4">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=11">
 </head>
 <body>
 <a class="skip" href="#tresc">Przejdź do treści</a>
 
-<div class="pasek-info" data-pl="Darmowa dostawa od 300 zł · zwrot do 14 dni" data-en="Free shipping over €70 · 14-day returns">Darmowa dostawa od 300 zł · zwrot do 14 dni</div>
+<div class="pasek-info"><span data-pl="Darmowa dostawa od 300 zł" data-en="Free shipping over €70">Darmowa dostawa od 300 zł</span><span class="pi-sep">·</span><span class="pi-szer" data-pl="zwrot do 14 dni" data-en="14-day returns">zwrot do 14 dni</span><span class="pi-sep pi-szer">·</span><a href="#/craft">#bravrycraft<span class="pi-szer"> - rękawice z Twoim projektem</span></a></div>
 
 <header class="naglowek" id="naglowek">
   <div class="wrap nag-in">
-    <button class="burger" id="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
-    <a class="logo" href="#/" aria-label="BRAVRY - strona główna"><img src="img/logo.png" alt="BRAVRY" width="640" height="177"></a>
-    <nav class="menu" id="menu" aria-label="Menu główne">
-      <a href="#/kolekcja" data-pl="Rękawice" data-en="Gloves">Rękawice</a>
-      <a href="#/kolekcja?junior" data-pl="Junior" data-en="Junior">Junior</a>
-      <a href="#/odziez" data-pl="Odzież" data-en="Apparel">Odzież</a>
-      <a href="#/rozmiar" data-pl="Dobór rozmiaru" data-en="Size guide">Dobór rozmiaru</a>
-      <a href="#/marka" data-pl="O marce" data-en="About">O marce</a>
-      <a href="#/kontakt" data-pl="Kontakt" data-en="Contact">Kontakt</a>
-      <div class="menu-tel"><a href="tel:+48574675325">574 675 325</a><a href="mailto:bravegk12@gmail.com">bravegk12@gmail.com</a></div>
-    </nav>
+    <button class="burger" id="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menuMob"><span></span><span></span><span></span></button>
+    <a class="logo" href="#/" aria-label="Rękawice Bramkarskie - strona główna">
+      <svg class="logo-znak" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="9" fill="#1463d8"/><g fill="#fff"><rect x="13" y="9" width="5.6" height="18" rx="2.8"/><rect x="19.6" y="6.5" width="5.6" height="20" rx="2.8"/><rect x="26.2" y="7.5" width="5.6" height="19" rx="2.8"/><rect x="32.8" y="11" width="5.4" height="16" rx="2.7"/><rect x="12.6" y="20" width="25.6" height="17" rx="6"/><rect x="5.5" y="21" width="5.6" height="14" rx="2.8" transform="rotate(-32 8.3 28)"/><rect x="14" y="36" width="22.5" height="7" rx="1.6"/></g></svg>
+      <span class="logo-txt">Rękawice<br>Bramkarskie</span>
+    </a>
+    <form class="szukaj" id="szukaj" role="search" autocomplete="off">
+      <label class="sr" for="q">Szukaj</label>
+      <input id="q" type="search" placeholder="Szukaj: model, marka, krój..." data-pl-ph="Szukaj: model, marka, krój..." data-en-ph="Search: model, brand, cut...">
+      <button type="submit" aria-label="Szukaj"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </form>
     <div class="nag-akcje">
+      <a class="nag-tel" href="tel:+48574675325"><small>Doradzimy rozmiar</small>574 675 325</a>
       <div class="jezyk" role="group" aria-label="Język">
         <button type="button" data-lang="pl" class="on" aria-pressed="true">PL</button>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
@@ -42,198 +42,219 @@
       </button>
     </div>
   </div>
+
+  <!-- pasek kategorii (komputer) -->
+  <nav class="kategorie-nav" aria-label="Kategorie">
+    <div class="wrap kn-in">
+      <div class="kn-poz">
+        <a href="#/k/rekawice" class="kn-a" data-pl="Rękawice" data-en="Gloves">Rękawice</a>
+        <div class="mega">
+          <div class="wrap mega-in">
+            <div><b>Krój</b><a href="#/k/rekawice?kroj=negative">Negative cut</a><a href="#/k/rekawice?kroj=roll">Roll finger</a><a href="#/k/rekawice?kroj=hybrid">Hybrid</a><a href="#/k/rekawice?kroj=flat">Flat</a></div>
+            <div><b>Ochrona i wiek</b><a href="#/k/rekawice?fs=1">Z fingersave</a><a href="#/k/rekawice?dla=senior">Senior (7-11)</a><a href="#/k/rekawice?dla=junior">Junior (3-6)</a></div>
+            <div><b>Marki</b><a href="#/marka/bravry" class="mega-bravry">BRAVRY</a><span class="mega-marki" data-marki></span></div>
+            <a class="mega-foto" href="#/craft"><img src="img/orzel-0s.webp" alt="" loading="lazy" width="400" height="500"><span>#bravrycraft<small>rękawice z Twoim projektem</small></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="kn-poz">
+        <a href="#/k/akcesoria" class="kn-a" data-pl="Akcesoria" data-en="Accessories">Akcesoria</a>
+        <div class="mega">
+          <div class="wrap mega-in">
+            <div><b>Akcesoria</b><a href="#/k/akcesoria?sub=pilki">Piłki</a><a href="#/k/akcesoria?sub=skarpety">Skarpety</a><a href="#/k/akcesoria?sub=bielizna">Bielizna termiczna</a><a href="#/k/akcesoria?sub=ochraniacze">Ochraniacze</a><a href="#/k/akcesoria?sub=pielegnacja">Pielęgnacja rękawic</a></div>
+            <a class="mega-foto mega-foto-szer" href="#/k/akcesoria?sub=bielizna"><img src="img/coldproof-0s.webp" alt="" loading="lazy" width="400" height="500"><span>Bielizna termiczna<small>na treningi w mrozie</small></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="kn-poz">
+        <a href="#/marki" class="kn-a" data-pl="Marki" data-en="Brands">Marki</a>
+        <div class="mega">
+          <div class="wrap mega-in mega-marki-siatka" data-marki-kafle></div>
+        </div>
+      </div>
+      <a href="#/marka/bravry" class="kn-a kn-bravry">BRAVRY</a>
+      <a href="#/craft" class="kn-a kn-craft">#bravrycraft</a>
+      <a href="#/rozmiar" class="kn-a" data-pl="Dobór rozmiaru" data-en="Size guide">Dobór rozmiaru</a>
+      <a href="#/kontakt" class="kn-a" data-pl="Kontakt" data-en="Contact">Kontakt</a>
+    </div>
+  </nav>
 </header>
+
+<!-- menu telefon -->
+<nav class="menu-mob" id="menuMob" aria-label="Menu">
+  <form class="szukaj szukaj-mob" id="szukajMob" role="search" autocomplete="off">
+    <label class="sr" for="qm">Szukaj</label>
+    <input id="qm" type="search" placeholder="Szukaj: model, marka, krój...">
+    <button type="submit" aria-label="Szukaj"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </form>
+  <details><summary>Rękawice</summary>
+    <a href="#/k/rekawice">Wszystkie rękawice</a><a href="#/k/rekawice?kroj=negative">Negative cut</a><a href="#/k/rekawice?kroj=roll">Roll finger</a><a href="#/k/rekawice?kroj=hybrid">Hybrid</a><a href="#/k/rekawice?kroj=flat">Flat</a><a href="#/k/rekawice?fs=1">Z fingersave</a><a href="#/k/rekawice?dla=senior">Senior</a><a href="#/k/rekawice?dla=junior">Junior</a>
+  </details>
+  <details><summary>Akcesoria</summary>
+    <a href="#/k/akcesoria">Wszystkie akcesoria</a><a href="#/k/akcesoria?sub=pilki">Piłki</a><a href="#/k/akcesoria?sub=skarpety">Skarpety</a><a href="#/k/akcesoria?sub=bielizna">Bielizna termiczna</a><a href="#/k/akcesoria?sub=ochraniacze">Ochraniacze</a><a href="#/k/akcesoria?sub=pielegnacja">Pielęgnacja rękawic</a>
+  </details>
+  <details><summary>Marki</summary><a href="#/marki">Wszystkie marki</a><span data-marki-mob></span></details>
+  <a class="mm-a" href="#/marka/bravry">BRAVRY</a>
+  <a class="mm-a mm-craft" href="#/craft">#bravrycraft - własny projekt</a>
+  <a class="mm-a" href="#/rozmiar">Dobór rozmiaru</a>
+  <a class="mm-a" href="#/kontakt">Kontakt</a>
+  <div class="mm-tel"><a href="tel:+48574675325">574 675 325</a><a href="mailto:bravegk12@gmail.com">bravegk12@gmail.com</a></div>
+</nav>
 
 <main id="tresc">
 
 <!-- ================= STRONA GŁÓWNA ================= -->
 <div class="widok" id="v-home">
-
   <section class="hero">
     <div class="hero-foto" aria-hidden="true">
       <img class="hf-a" src="img/lions-pride-0.webp" alt="" width="720" height="900" fetchpriority="high">
       <img class="hf-b" src="img/confidence-fp-0.webp" alt="" width="720" height="900">
-      <img class="hf-c" src="img/pr2-white-0.webp" alt="" width="720" height="900">
       <img class="hf-d" src="img/hero-king.webp" alt="" width="1800" height="1200">
     </div>
     <div class="hero-in">
-      <h1 data-pl="Rękawice bramkarskie BRAVRY" data-en="BRAVRY goalkeeper gloves">Rękawice bramkarskie BRAVRY</h1>
-      <p class="lead" data-pl="Oficjalny sklep marki. Lateks 4 + 4 mm, kroje roll finger i hybrydowe, rozmiary od 3 do 11 - dla juniorów i seniorów." data-en="The official brand store. 4 + 4 mm latex, roll finger and hybrid cuts, sizes 3 to 11 - for juniors and seniors.">Oficjalny sklep marki. Lateks 4 + 4 mm, kroje roll finger i hybrydowe, rozmiary od 3 do 11 - dla juniorów i seniorów.</p>
+      <h1 data-pl="Rękawice bramkarskie i sprzęt dla bramkarzy" data-en="Goalkeeper gloves and goalkeeping gear">Rękawice bramkarskie i sprzęt dla bramkarzy</h1>
+      <p class="lead" data-pl="Negative, roll finger, hybrid i flat w rozmiarach od 3 do 11. Marka własna BRAVRY, wybrane marki i akcesoria - a w #bravrycraft rękawice z Twoim projektem już od 1 pary." data-en="Negative, roll finger, hybrid and flat cuts, sizes 3 to 11. Our own brand BRAVRY, selected brands and accessories - plus #bravrycraft custom gloves from a single pair.">Negative, roll finger, hybrid i flat w rozmiarach od 3 do 11. Marka własna BRAVRY, wybrane marki i akcesoria - a w #bravrycraft rękawice z Twoim projektem już od 1 pary.</p>
       <div class="hero-cta">
-        <a class="btn btn-gl" href="#/kolekcja" data-pl="Zobacz kolekcję" data-en="Shop the collection">Zobacz kolekcję</a>
-        <a class="link-strz" href="#/rozmiar" data-pl="Jak dobrać rozmiar" data-en="Find your size">Jak dobrać rozmiar</a>
+        <a class="btn btn-gl" href="#/k/rekawice" data-pl="Zobacz rękawice" data-en="Shop gloves">Zobacz rękawice</a>
+        <a class="link-strz" href="#/craft" data-pl="Zaprojektuj własne" data-en="Design your own">Zaprojektuj własne</a>
       </div>
     </div>
   </section>
 
-  <section class="sekcja kategorie" aria-labelledby="kat-h">
+  <section class="sekcja kat-sekcja" aria-labelledby="kat-h">
     <div class="wrap">
-      <h2 id="kat-h" class="sr" data-pl="Kategorie" data-en="Categories">Kategorie</h2>
+      <div class="sek-gora"><h2 id="kat-h" data-pl="Rękawice według kroju" data-en="Gloves by cut">Rękawice według kroju</h2><a class="link-strz" href="#/k/rekawice" data-pl="Wszystkie rękawice" data-en="All gloves">Wszystkie rękawice</a></div>
       <div class="kat-siatka">
-        <a class="kat" href="#/kolekcja?senior"><img src="img/king-0s.webp" alt="" loading="lazy" width="400" height="500"><span data-pl="Rękawice seniorskie" data-en="Senior gloves">Rękawice seniorskie</span><small data-pl="rozmiary 7-11" data-en="sizes 7-11">rozmiary 7-11</small></a>
-        <a class="kat" href="#/kolekcja?junior"><img src="img/sunrise3-0s.webp" alt="" loading="lazy" width="400" height="500"><span data-pl="Rękawice junior" data-en="Junior gloves">Rękawice junior</span><small data-pl="rozmiary 3-6" data-en="sizes 3-6">rozmiary 3-6</small></a>
-        <a class="kat" href="#/odziez"><img src="img/coldproof-0s.webp" alt="" loading="lazy" width="400" height="500"><span data-pl="Odzież bramkarska" data-en="Goalkeeper apparel">Odzież bramkarska</span><small data-pl="termoaktywna, z ochraniaczami" data-en="thermal, padded">termoaktywna, z ochraniaczami</small></a>
-        <a class="kat" href="#/kolekcja?fingersave"><img src="img/confidence-fp-2.webp" alt="" loading="lazy"><span data-pl="Z ochroną palców" data-en="Finger protection">Z ochroną palców</span><small data-pl="wyjmowane usztywnienia" data-en="removable spines">wyjmowane usztywnienia</small></a>
+        <a class="kat" href="#/k/rekawice?kroj=negative"><img src="img/aqua-neg-0s.webp" alt="" loading="lazy" width="400" height="500"><span>Negative cut</span><small data-pl="przylega jak druga skóra" data-en="second-skin fit">przylega jak druga skóra</small></a>
+        <a class="kat" href="#/k/rekawice?kroj=roll"><img src="img/pr2-white-0s.webp" alt="" loading="lazy" width="400" height="500"><span>Roll finger</span><small data-pl="największa powierzchnia chwytu" data-en="maximum grip area">największa powierzchnia chwytu</small></a>
+        <a class="kat" href="#/k/rekawice?kroj=hybrid"><img src="img/king-0s.webp" alt="" loading="lazy" width="400" height="500"><span>Hybrid</span><small data-pl="roll + negative albo flat" data-en="roll + negative or flat">roll + negative albo flat</small></a>
+        <a class="kat" href="#/k/rekawice?fs=1"><img src="img/confidence-fp-2.webp" alt="" loading="lazy"><span>Fingersave</span><small data-pl="usztywnione palce" data-en="finger protection">usztywnione palce</small></a>
+        <a class="kat" href="#/k/rekawice?dla=junior"><img src="img/sunrise3-0s.webp" alt="" loading="lazy" width="400" height="500"><span>Junior</span><small data-pl="rozmiary 3-6" data-en="sizes 3-6">rozmiary 3-6</small></a>
+        <a class="kat" href="#/k/akcesoria"><img src="img/comfort-0s.webp" alt="" loading="lazy" width="400" height="500"><span data-pl="Akcesoria" data-en="Accessories">Akcesoria</span><small data-pl="bielizna, piłki, pielęgnacja" data-en="baselayers, balls, care">bielizna, piłki, pielęgnacja</small></a>
       </div>
     </div>
   </section>
 
-  <section class="sekcja kolekcja" id="kolekcja" aria-labelledby="kol-h">
+  <section class="sekcja marki-pas" aria-labelledby="marki-h">
     <div class="wrap">
-      <div class="kol-gora">
-        <h2 id="kol-h" data-pl="Rękawice bramkarskie" data-en="Goalkeeper gloves">Rękawice bramkarskie</h2>
-        <p class="kol-ile" id="ile" aria-live="polite"></p>
-      </div>
+      <div class="sek-gora"><h2 id="marki-h" data-pl="Marki" data-en="Brands">Marki</h2><a class="link-strz" href="#/marki" data-pl="Wszystkie marki" data-en="All brands">Wszystkie marki</a></div>
+      <div class="marki-rzad" data-marki-rzad></div>
+      <p class="przyp" data-pl="Marki inne niż BRAVRY i ich produkty są w wizualizacji przykładowe - pokazują, jak sklep zmieści ofertę wielu marek." data-en="Brands other than BRAVRY are examples in this concept.">Marki inne niż BRAVRY i ich produkty są w wizualizacji przykładowe - pokazują, jak sklep zmieści ofertę wielu marek.</p>
+    </div>
+  </section>
 
-      <div class="filtry" id="filtry">
-        <button class="filtry-otworz" id="filtryOtworz" type="button" aria-expanded="false" aria-controls="filtryPanel">
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <span data-pl="Filtry" data-en="Filters">Filtry</span><b id="filtryIle" hidden></b>
-        </button>
-        <label class="sortuj"><span class="sr">Sortuj</span>
-          <select id="sort">
-            <option value="pol" data-pl="Polecane" data-en="Featured">Polecane</option>
-            <option value="tanie" data-pl="Cena: od najniższej" data-en="Price: low to high">Cena: od najniższej</option>
-            <option value="drogie" data-pl="Cena: od najwyższej" data-en="Price: high to low">Cena: od najwyższej</option>
-          </select>
-        </label>
+  <section class="sekcja best" aria-labelledby="best-h">
+    <div class="wrap">
+      <div class="sek-gora"><h2 id="best-h" data-pl="Bestsellery BRAVRY" data-en="BRAVRY bestsellers">Bestsellery BRAVRY</h2><a class="link-strz" href="#/marka/bravry" data-pl="Cała kolekcja BRAVRY" data-en="Full BRAVRY range">Cała kolekcja BRAVRY</a></div>
+      <div class="siatka" id="siatkaBest"></div>
+    </div>
+  </section>
+
+  <section class="craft-pas" aria-labelledby="craft-h">
+    <div class="wrap craft-pas-in">
+      <div class="cp-foto" aria-hidden="true">
+        <img src="img/orzel-0.webp" alt="" loading="lazy" width="720" height="900">
+        <img src="img/lions-pride-0s.webp" alt="" loading="lazy" width="400" height="500">
+        <img src="img/explosion-0s.webp" alt="" loading="lazy" width="400" height="500">
+      </div>
+      <div class="cp-txt">
+        <p class="cp-tag">#bravrycraft</p>
+        <h2 id="craft-h" data-pl="Rękawice z Twoim projektem. Już od 1 pary." data-en="Gloves with your own design. From a single pair.">Rękawice z Twoim projektem. Już od 1 pary.</h2>
+        <p data-pl="Wybierasz model bazowy, kolory, logo klubu, nazwisko i numer. Dostajesz wizualizację do akceptacji, a potem rękawice szyte pod Ciebie. Jako jedyni w Polsce robimy to nawet dla jednej pary." data-en="Pick a base model, colours, club crest, name and number. Approve the visual, then we make the gloves for you - even a single pair.">Wybierasz model bazowy, kolory, logo klubu, nazwisko i numer. Dostajesz wizualizację do akceptacji, a potem rękawice szyte pod Ciebie. Jako jedyni w Polsce robimy to nawet dla jednej pary.</p>
+        <a class="btn btn-biale" href="#/craft" data-pl="Zaprojektuj rękawice" data-en="Design your gloves">Zaprojektuj rękawice</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcja porada" aria-labelledby="por-h">
+    <div class="wrap porada-in">
+      <figure class="porada-foto"><img src="img/lions-pride-2.webp" alt="Rękawica BRAVRY z krojem roll finger łapie piłkę" loading="lazy"></figure>
+      <div>
+        <h2 id="por-h" data-pl="Jaki rozmiar i jaki krój?" data-en="Which size and which cut?">Jaki rozmiar i jaki krój?</h2>
+        <p data-pl="Zmierz dłoń od końca najdłuższego palca do nadgarstka i odczytaj rozmiar z tabeli. Krój dobierz do stylu gry: negative dla czucia piłki, roll finger dla chwytu, hybrid jako złoty środek." data-en="Measure from the tip of your longest finger to the wrist and read your size from the chart. Pick the cut for your style: negative for feel, roll finger for grip, hybrid in between.">Zmierz dłoń od końca najdłuższego palca do nadgarstka i odczytaj rozmiar z tabeli. Krój dobierz do stylu gry: negative dla czucia piłki, roll finger dla chwytu, hybrid jako złoty środek.</p>
+        <form class="miarka" data-miarka autocomplete="off">
+          <label for="dlonHome" data-pl="Długość dłoni w cm" data-en="Hand length in cm">Długość dłoni w cm</label>
+          <div class="miarka-in"><input id="dlonHome" type="number" inputmode="decimal" min="13" max="23" step="0.5" placeholder="np. 18"><output aria-live="polite">Rozmiar: -</output></div>
+        </form>
+        <a class="link-strz" href="#/rozmiar" data-pl="Tabela rozmiarów i opis krojów" data-en="Size chart and cuts explained">Tabela rozmiarów i opis krojów</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcja bravry-pas" aria-labelledby="br-h">
+    <div class="wrap bravry-in">
+      <div>
+        <img class="br-logo" src="img/logo.png" alt="BRAVRY" width="640" height="177" loading="lazy">
+        <h2 id="br-h" data-pl="BRAVRY - nasza marka własna" data-en="BRAVRY - our own brand">BRAVRY - nasza marka własna</h2>
+        <p>Rękawice projektuje Andrii Brychko, bramkarz, który od 2012 roku testuje materiały i lateks. Lateks 4 + 4 mm, silikon Fix Fit wewnątrz, pasek z okienkiem na personalizację. Kolekcja od rozmiaru 3 do 11, do tego bielizna termiczna i ochraniacze.</p>
+        <a class="link-strz" href="#/marka/bravry" data-pl="Poznaj kolekcję BRAVRY" data-en="Explore BRAVRY">Poznaj kolekcję BRAVRY</a>
+      </div>
+      <figure><img src="img/lion-2.webp" alt="Rękawica BRAVRY Lion z piłką" loading="lazy"></figure>
+    </div>
+  </section>
+</div>
+
+<!-- ================= LISTING ================= -->
+<div class="widok" id="v-lista" hidden>
+  <div class="lista-baner" id="listaBaner" hidden></div>
+  <div class="wrap lista">
+    <nav class="okruszki" aria-label="Ścieżka" id="listaOkr"></nav>
+    <div class="lista-in">
+      <aside class="boczny" aria-label="Filtry">
         <div class="filtry-panel" id="filtryPanel">
-          <div class="fp-gora"><b data-pl="Filtry" data-en="Filters">Filtry</b><button type="button" class="fp-x" id="filtryZamknij" aria-label="Zamknij filtry">×</button></div>
-          <fieldset><legend data-pl="Krój" data-en="Cut">Krój</legend><div class="chipy" data-f="kroj">
-            <button type="button" data-v="roll">Roll finger</button>
-            <button type="button" data-v="hyb">Hybrid Roll</button>
-            <button type="button" data-v="hyb-neg">Roll / Negative</button>
-            <button type="button" data-v="hyb-flat">Roll / Flat</button>
-            <button type="button" data-v="fs">Fingersave</button>
-          </div></fieldset>
-          <fieldset><legend data-pl="Rozmiar" data-en="Size">Rozmiar</legend><div class="chipy chipy-roz" data-f="roz">
-            <button type="button" data-v="3">3</button><button type="button" data-v="4">4</button><button type="button" data-v="5">5</button><button type="button" data-v="6">6</button><button type="button" data-v="7">7</button><button type="button" data-v="8">8</button><button type="button" data-v="9">9</button><button type="button" data-v="10">10</button><button type="button" data-v="11">11</button>
-          </div></fieldset>
-          <fieldset><legend data-pl="Poziom i warunki" data-en="Level and conditions">Poziom i warunki</legend><div class="chipy" data-f="poz">
-            <button type="button" data-v="mecz" data-pl="Mecz premium" data-en="Match premium">Mecz premium</button>
-            <button type="button" data-v="trening" data-pl="Mecz i trening" data-en="Match and training">Mecz i trening</button>
-            <button type="button" data-v="junior">Junior</button>
-            <button type="button" data-v="mokro" data-pl="Mokra murawa" data-en="Wet pitch">Mokra murawa</button>
-          </div></fieldset>
-          <fieldset><legend data-pl="Cena" data-en="Price">Cena</legend><div class="chipy" data-f="cena">
-            <button type="button" data-v="a" class="cena-a">do 220 zł</button>
-            <button type="button" data-v="b" class="cena-b">220-270 zł</button>
-            <button type="button" data-v="c" class="cena-c">od 270 zł</button>
-          </div></fieldset>
+          <div class="fp-gora"><b>Filtry</b><button type="button" class="fp-x" id="filtryZamknij" aria-label="Zamknij filtry">×</button></div>
+          <div class="fgr fgr-kat" id="fgrKat"></div>
+          <fieldset class="fgr" id="fgrMarka"><legend>Marka</legend><div class="checki" data-f="marka"></div></fieldset>
+          <fieldset class="fgr" id="fgrSub" hidden><legend>Rodzaj</legend><div class="checki" data-f="sub"></div></fieldset>
+          <fieldset class="fgr" id="fgrKroj"><legend>Krój</legend><div class="checki" data-f="kroj"></div></fieldset>
+          <fieldset class="fgr" id="fgrFs"><legend>Ochrona palców</legend><div class="checki" data-f="fs"></div></fieldset>
+          <fieldset class="fgr" id="fgrDla"><legend>Dla kogo</legend><div class="checki" data-f="dla"></div></fieldset>
+          <fieldset class="fgr" id="fgrRoz"><legend>Rozmiar</legend><div class="chipy chipy-roz" data-f="roz"></div></fieldset>
+          <fieldset class="fgr"><legend>Cena</legend><div class="checki" data-f="cena"></div></fieldset>
           <div class="fp-dol">
-            <button type="button" class="btn-txt" id="filtryWyczysc" data-pl="Wyczyść" data-en="Clear">Wyczyść</button>
+            <button type="button" class="btn-txt" id="filtryWyczysc">Wyczyść</button>
             <button type="button" class="btn btn-gl fp-pokaz" id="filtryPokaz">Pokaż</button>
           </div>
         </div>
-      </div>
-      <div class="aktywne" id="aktywne"></div>
-
-      <div class="siatka" id="siatka"></div>
-      <p class="pusto" id="pusto" hidden><span data-pl="Brak modeli dla wybranych filtrów." data-en="No gloves match these filters.">Brak modeli dla wybranych filtrów.</span> <button type="button" class="btn-txt" id="pustoWyczysc" data-pl="Wyczyść filtry" data-en="Clear filters">Wyczyść filtry</button></p>
-    </div>
-  </section>
-
-  <section class="sekcja odziez" id="odziez" aria-labelledby="odz-h">
-    <div class="wrap">
-      <div class="kol-gora"><h2 id="odz-h" data-pl="Odzież i akcesoria" data-en="Apparel and accessories">Odzież i akcesoria</h2></div>
-      <div class="siatka" id="siatkaOdz"></div>
-    </div>
-  </section>
-
-  <section class="sekcja tech" id="technologia" aria-labelledby="tech-h">
-    <div class="wrap tech-in">
-      <figure class="tech-foto"><img src="img/lions-pride-2.webp" alt="Rękawica BRAVRY Lions Pride z krojem roll finger łapie piłkę" loading="lazy"></figure>
-      <div class="tech-txt">
-        <h2 id="tech-h" data-pl="Kroje i technologie" data-en="Cuts and technology">Kroje i technologie</h2>
-        <p data-pl="Krój decyduje o tym, jak rękawica leży na dłoni i jak duża jest powierzchnia kontaktu z piłką." data-en="The cut decides how the glove fits your hand and how much latex touches the ball.">Krój decyduje o tym, jak rękawica leży na dłoni i jak duża jest powierzchnia kontaktu z piłką.</p>
-        <dl class="def">
-          <dt>Roll finger</dt><dd>Palce całkowicie owinięte lateksem, zaokrąglone. Największa powierzchnia chwytu. Perfect Roll II, Lions Pride, Confidence.</dd>
-          <dt>Negative cut</dt><dd>Szwy schowane do środka, rękawica ciasno przylega jak druga skóra. Lepsze czucie piłki.</dd>
-          <dt>Hybrid</dt><dd>Połączenie: palce roll, a dłoń negative albo flat. Kompromis między chwytem i dopasowaniem. KING, Catalyst, Aqua II, Lion.</dd>
-          <dt>Fix Fit</dt><dd>Silikon wewnątrz rękawicy, który trzyma dłoń w miejscu przy strzale i upadku.</dd>
-          <dt>Fingersave</dt><dd>Wyjmowane usztywnienia palców w Confidence Finger Protection - jeden palec albo wszystkie.</dd>
-          <dt>Aqua Contact</dt><dd>Lateks do gry w deszczu i na mokrej murawie, w modelach Aqua II.</dd>
-        </dl>
-      </div>
-    </div>
-  </section>
-
-  <section class="sekcja rozmiar" id="rozmiar" aria-labelledby="roz-h">
-    <div class="wrap roz-in">
-      <div class="roz-txt">
-        <h2 id="roz-h" data-pl="Jak dobrać rozmiar rękawic" data-en="How to choose your glove size">Jak dobrać rozmiar rękawic</h2>
-        <ol class="kroki">
-          <li>Połóż dłoń płasko na kartce, palce złączone.</li>
-          <li>Zmierz odległość od końca najdłuższego palca do nadgarstka.</li>
-          <li>Odczytaj rozmiar z tabeli albo wpisz wynik poniżej.</li>
-        </ol>
-        <form class="miarka" id="miarka" autocomplete="off">
-          <label for="dlon">Długość dłoni w cm</label>
-          <div class="miarka-in">
-            <input id="dlon" type="number" inputmode="decimal" min="13" max="23" step="0.5" placeholder="np. 18">
-            <output id="wynik" for="dlon" aria-live="polite">Rozmiar: -</output>
-          </div>
-          <p class="miarka-pod">Wynik pomiędzy rozmiarami? Napisz do nas, doradzimy model.</p>
-        </form>
-      </div>
-      <div class="tabela-wrap">
-        <table class="tabela" id="tabela">
-          <caption>Tabela rozmiarów BRAVRY</caption>
-          <thead><tr><th scope="col">Rozmiar</th><th scope="col">Długość dłoni</th></tr></thead>
-          <tbody>
-            <tr data-r="3"><td>3</td><td>15 cm</td></tr>
-            <tr data-r="4"><td>4</td><td>15,5 cm</td></tr>
-            <tr data-r="5"><td>5</td><td>16 cm</td></tr>
-            <tr data-r="6"><td>6</td><td>16,5 cm</td></tr>
-            <tr data-r="7"><td>7</td><td>17 cm</td></tr>
-            <tr data-r="8"><td>8</td><td>18 cm</td></tr>
-            <tr data-r="9"><td>9</td><td>19 cm</td></tr>
-            <tr data-r="10"><td>10</td><td>20 cm</td></tr>
-            <tr data-r="11"><td>11</td><td>powyżej 20 cm</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section class="sekcja marka" id="marka" aria-labelledby="marka-h">
-    <div class="wrap marka-in">
-      <figure class="marka-foto"><img src="img/lion-2.webp" alt="Rękawica BRAVRY Lion z piłką" loading="lazy"></figure>
-      <div class="marka-txt">
-        <h2 id="marka-h" data-pl="Marka zrobiona przez bramkarza" data-en="A brand made by a goalkeeper">Marka zrobiona przez bramkarza</h2>
-        <p>Andrii Brychko sam stał w bramce i szukał rękawic, w których czułby się pewnie w każdych warunkach. W 2012 roku zaczął pierwsze testy materiałów i lateksu. Kolejne modele powstawały z jego obserwacji i uwag bramkarzy, z którymi trenował.</p>
-        <p>Dziś BRAVRY to rękawice od rozmiaru 3 dla najmłodszych do 11 dla seniorów, odzież termoaktywna i bielizna z ochraniaczami. Pasek większości modeli ma okienko na personalizację - imię albo numer.</p>
-        <p class="kluby"><b>Kluby i akademie.</b> Zamawiasz dla kilku bramkarzy albo całej szkółki? <a href="mailto:bravegk12@gmail.com?subject=Zam%C3%B3wienie%20dla%20klubu">Napisz</a> - przygotujemy wycenę.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="sekcja kontakt" id="kontakt" aria-labelledby="kon-h">
-    <div class="wrap kon-in">
-      <h2 id="kon-h" data-pl="Kontakt" data-en="Contact">Kontakt</h2>
-      <div class="kon-siatka">
-        <div>
-          <a class="kon-duzy" href="tel:+48574675325">574 675 325</a>
-          <a class="kon-mail" href="mailto:bravegk12@gmail.com">bravegk12@gmail.com</a>
-          <p class="kon-pod">Pytania o rozmiar, dostępność i zamówienia klubowe.</p>
+      </aside>
+      <section class="lista-glowna" aria-labelledby="listaH">
+        <div class="lista-gora">
+          <h1 id="listaH">Rękawice bramkarskie</h1>
+          <span class="lista-ile" id="ile" aria-live="polite"></span>
         </div>
-        <div>
-          <p><b>Bravery Sportswear Group sp. z o.o.</b><br>pl. Bankowy 2 lok. 1309<br>00-095 Warszawa</p>
-          <p class="kon-pod">NIP 5140345227 · KRS 0000705885</p>
+        <div class="marki-chipy" id="markiChipy" aria-label="Szybki wybór marki"></div>
+        <div class="lista-pasek">
+          <button class="filtry-otworz" id="filtryOtworz" type="button" aria-expanded="false" aria-controls="filtryPanel">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>Filtry</span><b id="filtryIle" hidden></b>
+          </button>
+          <label class="sortuj"><span class="sr">Sortuj</span>
+            <select id="sort"><option value="pol">Polecane</option><option value="tanie">Cena: od najniższej</option><option value="drogie">Cena: od najwyższej</option><option value="nazwa">Nazwa A-Z</option></select>
+          </label>
         </div>
-        <div>
-          <p><a class="kon-ig" href="https://www.instagram.com/bravry_int/" target="_blank" rel="noopener">Instagram @bravry_int</a></p>
-          <p class="kon-pod">Nowe modele i zdjęcia z boiska.</p>
-        </div>
-      </div>
+        <div class="aktywne" id="aktywne"></div>
+        <div class="siatka siatka-lista" id="siatka"></div>
+        <div class="pusto" id="pusto" hidden><p>Brak produktów dla wybranych filtrów.</p><button type="button" class="btn-txt" id="pustoWyczysc">Wyczyść filtry</button></div>
+        <p class="przyp" id="listaPrzyp">Produkty oznaczone "przykład" i marki inne niż BRAVRY są przykładowe - zdjęcia zastępuje neutralna grafika.</p>
+      </section>
     </div>
-  </section>
+  </div>
+</div>
+
+<!-- ================= MARKI ================= -->
+<div class="widok" id="v-marki" hidden>
+  <div class="wrap">
+    <nav class="okruszki" aria-label="Ścieżka"><a href="#/">Sklep</a><span>/</span><b>Marki</b></nav>
+    <h1 class="str-h">Marki</h1>
+    <div class="marki-siatka" data-marki-strona></div>
+    <p class="przyp">BRAVRY to marka własna sklepu. Pozostałe marki są w wizualizacji przykładowe - pokazane tylko z nazwy, bez logotypów.</p>
+  </div>
 </div>
 
 <!-- ================= KARTA PRODUKTU ================= -->
 <div class="widok" id="v-produkt" hidden>
   <div class="wrap">
-    <nav class="okruszki" aria-label="Ścieżka"><a href="#/">Sklep</a><span>/</span><a href="#/kolekcja" id="okrKat">Rękawice</a><span>/</span><b id="okrNazwa"></b></nav>
+    <nav class="okruszki" aria-label="Ścieżka" id="prodOkr"></nav>
     <div class="prod">
       <div class="galeria">
         <div class="gal-tasma" id="galTasma" tabindex="0" aria-label="Zdjęcia produktu"></div>
@@ -241,17 +262,17 @@
         <div class="gal-miniatury" id="galMini"></div>
       </div>
       <div class="prod-info">
-        <p class="prod-etyk" id="pEtyk"></p>
+        <a class="prod-marka" id="pMarka" href="#/marka/bravry"></a>
         <h1 class="prod-nazwa" id="pNazwa"></h1>
+        <p class="prod-etyk" id="pEtyk"></p>
         <p class="prod-cena" id="pCena"></p>
+        <p class="prod-przyk" id="pPrzyk" hidden>Produkt przykładowy - tak będą wyglądały karty innych marek w sklepie.</p>
         <p class="prod-krotko" id="pKrotko"></p>
-
         <div class="prod-wybor">
           <div class="wybor-gora"><b id="rozEtyk">Rozmiar</b><button type="button" class="btn-txt" id="pokazTabele">Tabela rozmiarów</button></div>
           <div class="rozmiary" id="pRozmiary" role="radiogroup" aria-labelledby="rozEtyk"></div>
           <p class="blad" id="rozBlad" hidden>Wybierz rozmiar.</p>
         </div>
-
         <div class="prod-kup" id="prodKup">
           <div class="ilosc" aria-label="Ilość">
             <button type="button" id="ilMinus" aria-label="Zmniejsz ilość">−</button>
@@ -260,35 +281,166 @@
           </div>
           <button type="button" class="btn btn-gl btn-kup" id="dodaj">Dodaj do koszyka</button>
         </div>
-
+        <a class="prod-craft" id="pCraft" href="#/craft"><b>Chcesz ten model z własnym projektem?</b><span>#bravrycraft - Twoje kolory, logo, nazwisko i numer, od 1 pary</span></a>
         <ul class="prod-dost">
           <li><b>Wysyłka w 24 h</b> w dni robocze</li>
           <li><b>InPost Paczkomat</b> albo kurier, darmowa dostawa od 300 zł</li>
-          <li><b>Zwrot do 14 dni</b> (nie dotyczy rękawic z nadrukiem)</li>
+          <li><b>Zwrot do 14 dni</b> (nie dotyczy produktów personalizowanych)</li>
         </ul>
-
         <div class="akordeon">
           <details open><summary>Technologia</summary><ul class="spec" id="pSpec"></ul></details>
           <details><summary>Opis</summary><div id="pOpis" class="opis"></div></details>
-          <details id="detRoz"><summary>Tabela rozmiarów</summary>
-            <div class="mini-tabela" id="pTabela"></div>
-          </details>
-          <details><summary>Pielęgnacja</summary><p class="opis">Przed treningiem zwilż lateks wodą. Po grze wypłucz rękawice w letniej wodzie bez detergentu i susz w przewiewnym miejscu, z dala od kaloryfera i słońca. Przechowuj osobno, dłoń do dłoni.</p></details>
+          <details id="detRoz"><summary>Tabela rozmiarów</summary><div class="mini-tabela" id="pTabela"></div></details>
+          <details id="detPiel"><summary>Pielęgnacja</summary><p class="opis">Przed treningiem zwilż lateks wodą. Po grze wypłucz rękawice w letniej wodzie z płynem do rękawic i susz w przewiewnym miejscu, z dala od kaloryfera i słońca. Przechowuj osobno, dłoń do dłoni.</p></details>
         </div>
       </div>
     </div>
-
     <section class="podobne" aria-labelledby="pod-h">
       <h2 id="pod-h">Zobacz też</h2>
-      <div class="siatka siatka-pod" id="podobne"></div>
+      <div class="siatka" id="podobne"></div>
     </section>
   </div>
-
   <div class="kup-pasek" id="kupPasek" aria-hidden="true">
     <div class="kp-in">
       <div class="kp-txt"><b id="kpNazwa"></b><span id="kpCena"></span></div>
       <button type="button" class="btn btn-gl" id="kpDodaj" tabindex="-1">Dodaj do koszyka</button>
     </div>
+  </div>
+</div>
+
+<!-- ================= #BRAVRYCRAFT ================= -->
+<div class="widok" id="v-craft" hidden>
+  <section class="craft-hero">
+    <div class="wrap ch-in">
+      <div class="ch-txt">
+        <nav class="okruszki okr-jasne" aria-label="Ścieżka"><a href="#/">Sklep</a><span>/</span><b>#bravrycraft</b></nav>
+        <p class="cp-tag">#bravrycraft</p>
+        <h1>Rękawice bramkarskie z Twoim projektem</h1>
+        <p class="ch-lead">Jako jedyna firma w Polsce robimy rękawice z designem pod klienta - już od 1 pary. Twoje kolory, logo klubu, nazwisko i numer na sprawdzonym modelu BRAVRY.</p>
+        <div class="hero-cta"><a class="btn btn-biale" href="#formularz">Wyślij zapytanie</a><a class="link-strz link-jasny" href="#proces">Jak to działa</a></div>
+      </div>
+      <div class="ch-foto" aria-hidden="true">
+        <img src="img/orzel-0.webp" alt="" width="720" height="900">
+        <img src="img/orzel-1.webp" alt="" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcja" id="proces" aria-labelledby="proc-h">
+    <div class="wrap">
+      <h2 id="proc-h">Jak to działa</h2>
+      <ol class="proces">
+        <li><b>Wybierz model bazowy</b><span>Krój i lateks z kolekcji BRAVRY: KING, Catalyst, Perfect Roll, Confidence (też z fingersave) i inne.</span></li>
+        <li><b>Podaj swój projekt</b><span>Kolory, logo klubu albo szkółki, nazwisko, numer, flaga. Możesz wgrać logo i szkic.</span></li>
+        <li><b>Zaakceptuj wizualizację</b><span>Dostajesz podgląd rękawic. Poprawiamy do skutku, a produkcja rusza dopiero po Twojej akceptacji.</span></li>
+        <li><b>Produkcja i wysyłka</b><span>Szyjemy rękawice już od 1 pary. Termin i cenę podajemy przy wycenie, dla klubów rabaty ilościowe.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sekcja craft-gal-sek" aria-labelledby="gal-h">
+    <div class="wrap">
+      <div class="sek-gora"><h2 id="gal-h">Galeria wzorów</h2></div>
+      <div class="craft-gal">
+        <figure><img src="img/orzel-2.webp" alt="Catalyst Orzeł - motyw orła i barwy narodowe" loading="lazy"><figcaption>Catalyst Orzeł - motyw orła, barwy narodowe</figcaption></figure>
+        <figure><img src="img/strong2-1.webp" alt="Pasek rękawicy Strong II z nadrukiem" loading="lazy"><figcaption>Nadruk na pasku rękawicy</figcaption></figure>
+        <figure><img src="img/lions-pride-0.webp" alt="Lions Pride w biało-niebieskich barwach" loading="lazy"><figcaption>Lions Pride - biało-niebieskie barwy</figcaption></figure>
+        <figure><img src="img/explosion-0.webp" alt="Catalyst Explosion" loading="lazy"><figcaption>Catalyst Explosion - pomarańczowy lateks</figcaption></figure>
+        <figure><img src="img/confidence-0.webp" alt="Confidence czarno-czerwone" loading="lazy"><figcaption>Confidence - czarno-czerwony</figcaption></figure>
+        <figure><img src="img/sunrise3-0.webp" alt="Sunrise III czarno-zielone" loading="lazy"><figcaption>Sunrise III - czarno-zielony</figcaption></figure>
+      </div>
+      <p class="przyp">Na zdjęciach wzory z kolekcji BRAVRY jako przykład możliwości. W gotowym sklepie galeria pokaże realizacje #bravrycraft z Instagrama.</p>
+    </div>
+  </section>
+
+  <section class="sekcja craft-form-sek" id="formularz" aria-labelledby="form-h">
+    <div class="wrap cf-in">
+      <div class="cf-opis">
+        <h2 id="form-h">Zapytanie o własne rękawice</h2>
+        <p>Opisz projekt, wgraj logo, a przygotujemy wycenę i pierwszą wizualizację.</p>
+        <ul class="cf-lista">
+          <li>od 1 pary, bez minimum zamówienia</li>
+          <li>wizualizacja do akceptacji przed produkcją</li>
+          <li>dla klubów i akademii wycena ilościowa</li>
+        </ul>
+        <p class="cf-kontakt">Wolisz porozmawiać? <a href="tel:+48574675325">574 675 325</a></p>
+      </div>
+      <form class="cf" id="craftForm" novalidate>
+        <div class="pola">
+          <label class="pole"><span>Model bazowy</span>
+            <select name="model" id="cfModel"></select>
+          </label>
+          <label class="pole"><span>Liczba par</span><input name="pary" type="number" min="1" value="1" inputmode="numeric"></label>
+          <div class="pole pole-szer"><span>Kolory</span>
+            <div class="kolory">
+              <label><input type="color" name="kol1" value="#1463d8"> dłoń / główny</label>
+              <label><input type="color" name="kol2" value="#ffffff"> tył</label>
+              <label><input type="color" name="kol3" value="#0d1014"> dodatki</label>
+            </div>
+          </div>
+          <label class="pole"><span>Nazwisko lub imię na pasku</span><input name="napis" maxlength="14" placeholder="np. NOWAK"></label>
+          <label class="pole"><span>Numer</span><input name="numer" maxlength="3" inputmode="numeric" placeholder="np. 1"></label>
+          <label class="pole"><span>Rozmiar (rozmiary)</span><input name="rozm" placeholder="np. 8, 9"></label>
+          <div class="pole"><span>Logo lub szkic</span>
+            <label class="plik"><input type="file" name="logo" id="cfPlik" accept="image/*,.pdf,.svg"><span id="cfPlikTxt">Wybierz plik</span></label>
+            <img class="plik-podglad" id="cfPodglad" alt="Podgląd wgranego logo" hidden>
+          </div>
+          <label class="pole pole-szer"><span>Opis projektu</span><textarea name="opis" rows="3" placeholder="np. barwy klubu, logo na grzbiecie dłoni, flaga na kciuku"></textarea></label>
+          <label class="pole"><span>Imię</span><input name="imie" required autocomplete="given-name"></label>
+          <label class="pole"><span>E-mail albo telefon</span><input name="kontakt" required autocomplete="email"></label>
+        </div>
+        <p class="blad" id="cfBlad" hidden>Podaj imię i kontakt.</p>
+        <button type="submit" class="btn btn-gl btn-zam">Wyślij zapytanie</button>
+        <p class="zf-uwaga">W wizualizacji formularz niczego nie wysyła - pokazuje tylko potwierdzenie.</p>
+      </form>
+      <div class="cf-ok" id="cfOk" hidden tabindex="-1">
+        <h3>Dziękujemy, zapytanie przyjęte</h3>
+        <p id="cfPods"></p>
+        <p>Tak wyglądałoby potwierdzenie w gotowym sklepie: wycena i pierwsza wizualizacja przychodzą e-mailem.</p>
+        <p class="zf-uwaga">To wizualizacja - zapytanie nie zostało wysłane.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= DOBÓR ROZMIARU ================= -->
+<div class="widok" id="v-rozmiar" hidden>
+  <div class="wrap">
+    <nav class="okruszki" aria-label="Ścieżka"><a href="#/">Sklep</a><span>/</span><b>Dobór rozmiaru</b></nav>
+    <h1 class="str-h">Jak dobrać rozmiar i krój rękawic</h1>
+    <div class="roz-in">
+      <div>
+        <ol class="kroki">
+          <li>Połóż dłoń płasko na kartce, palce złączone.</li>
+          <li>Zmierz odległość od końca najdłuższego palca do nadgarstka.</li>
+          <li>Odczytaj rozmiar z tabeli albo wpisz wynik poniżej.</li>
+        </ol>
+        <form class="miarka" data-miarka autocomplete="off">
+          <label for="dlon">Długość dłoni w cm</label>
+          <div class="miarka-in"><input id="dlon" type="number" inputmode="decimal" min="13" max="23" step="0.5" placeholder="np. 18"><output aria-live="polite">Rozmiar: -</output></div>
+          <p class="miarka-pod">Wynik pomiędzy rozmiarami? Zadzwoń, doradzimy model.</p>
+        </form>
+      </div>
+      <div class="tabela-wrap">
+        <table class="tabela" id="tabela">
+          <caption>Tabela rozmiarów BRAVRY</caption>
+          <thead><tr><th scope="col">Rozmiar</th><th scope="col">Długość dłoni</th></tr></thead>
+          <tbody>
+            <tr data-r="3"><td>3</td><td>15 cm</td></tr><tr data-r="4"><td>4</td><td>15,5 cm</td></tr><tr data-r="5"><td>5</td><td>16 cm</td></tr><tr data-r="6"><td>6</td><td>16,5 cm</td></tr><tr data-r="7"><td>7</td><td>17 cm</td></tr><tr data-r="8"><td>8</td><td>18 cm</td></tr><tr data-r="9"><td>9</td><td>19 cm</td></tr><tr data-r="10"><td>10</td><td>20 cm</td></tr><tr data-r="11"><td>11</td><td>powyżej 20 cm</td></tr>
+          </tbody>
+        </table>
+        <p class="przyp">Tabela marki BRAVRY. Rozmiarówki innych marek mogą się różnić o pół rozmiaru.</p>
+      </div>
+    </div>
+    <h2 class="str-h2">Kroje rękawic</h2>
+    <dl class="def def-siatka">
+      <div><dt>Negative cut</dt><dd>Szwy schowane do środka, rękawica ciasno przylega jak druga skóra. Najlepsze czucie piłki.</dd></div>
+      <div><dt>Roll finger</dt><dd>Palce całkowicie owinięte lateksem, zaokrąglone. Największa powierzchnia chwytu.</dd></div>
+      <div><dt>Hybrid</dt><dd>Palce roll, a dłoń negative albo flat. Kompromis między chwytem i dopasowaniem.</dd></div>
+      <div><dt>Flat</dt><dd>Klasyczny płaski krój ze szwami na zewnątrz. Więcej miejsca w dłoni, dobry na start.</dd></div>
+      <div><dt>Fingersave</dt><dd>Usztywnienia palców chroniące przed przeprostem. W Confidence Finger Protection są wyjmowane.</dd></div>
+      <div><dt>Fix Fit</dt><dd>Silikon wewnątrz rękawic BRAVRY, który trzyma dłoń w miejscu przy strzale i upadku.</dd></div>
+    </dl>
   </div>
 </div>
 
@@ -308,10 +460,9 @@
             <label class="pole"><span>Nazwisko</span><input name="nazwisko" required autocomplete="family-name"></label>
           </div>
         </fieldset>
-
         <fieldset class="zf">
           <legend>Dostawa</legend>
-          <div class="opcje" id="dostawy">
+          <div class="opcje">
             <label class="opcja"><input type="radio" name="dostawa" value="paczkomat" checked><span class="op-t"><b>InPost Paczkomat 24/7</b><small>1-2 dni robocze</small></span><span class="op-c" data-koszt="paczkomat"></span></label>
             <label class="opcja"><input type="radio" name="dostawa" value="kurier"><span class="op-t"><b>Kurier InPost</b><small>pod wskazany adres, 1-2 dni robocze</small></span><span class="op-c" data-koszt="kurier"></span></label>
           </div>
@@ -326,7 +477,6 @@
             <label class="pole"><span>Miejscowość</span><input name="miasto" autocomplete="address-level2"></label>
           </div>
         </fieldset>
-
         <fieldset class="zf">
           <legend>Płatność</legend>
           <div class="opcje">
@@ -337,12 +487,10 @@
           <label class="pole blik" id="blik"><span>Kod BLIK</span><input name="blikkod" inputmode="numeric" maxlength="7" placeholder="000 000" autocomplete="off"></label>
           <p class="zf-uwaga">W wizualizacji płatność nie jest pobierana - po kliknięciu zobaczysz tylko potwierdzenie.</p>
         </fieldset>
-
         <label class="zgoda"><input type="checkbox" name="regulamin" required> <span>Akceptuję regulamin sklepu i politykę prywatności.</span></label>
         <p class="blad" id="zamBlad" hidden>Uzupełnij zaznaczone pola.</p>
         <button type="submit" class="btn btn-gl btn-zam" id="zamBtn">Zamawiam i płacę</button>
       </form>
-
       <aside class="zam-pods" aria-label="Podsumowanie">
         <h2>Twoje zamówienie</h2>
         <ul class="zp-lista" id="zpLista"></ul>
@@ -353,45 +501,56 @@
         </dl>
       </aside>
     </div>
-
     <div class="dziekujemy" id="zamPusty" hidden>
       <p>Koszyk jest pusty. Wybierz rękawice i rozmiar, a potem wróć tutaj.</p>
-      <a class="btn btn-gl" href="#/kolekcja">Zobacz rękawice</a>
+      <a class="btn btn-gl" href="#/k/rekawice">Zobacz rękawice</a>
     </div>
     <div class="dziekujemy" id="dziekujemy" hidden tabindex="-1">
       <h2>Dziękujemy za zamówienie</h2>
       <p id="dzNr"></p>
       <p>Tak wyglądałoby potwierdzenie w gotowym sklepie: e-mail z podsumowaniem, numer przesyłki InPost i link do śledzenia.</p>
       <p class="zf-uwaga">To wizualizacja - zamówienie nie zostało wysłane, a płatność nie została pobrana.</p>
-      <a class="btn btn-gl" href="#/kolekcja">Wróć do sklepu</a>
+      <a class="btn btn-gl" href="#/k/rekawice">Wróć do sklepu</a>
     </div>
   </div>
 </div>
 
 </main>
 
+<section class="kontakt" id="kontakt" aria-labelledby="kon-h">
+  <div class="wrap kon-in">
+    <h2 id="kon-h" data-pl="Kontakt" data-en="Contact">Kontakt</h2>
+    <div class="kon-siatka">
+      <div>
+        <a class="kon-duzy" href="tel:+48574675325">574 675 325</a>
+        <a class="kon-mail" href="mailto:bravegk12@gmail.com">bravegk12@gmail.com</a>
+        <p class="kon-pod">Rozmiar, dostępność, zamówienia klubowe i #bravrycraft.</p>
+      </div>
+      <div>
+        <p><b>Bravery Sportswear Group sp. z o.o.</b><br>pl. Bankowy 2 lok. 1309<br>00-095 Warszawa</p>
+        <p class="kon-pod">NIP 5140345227 · KRS 0000705885</p>
+      </div>
+      <div>
+        <p><a class="kon-ig" href="https://www.instagram.com/bravry_int/" target="_blank" rel="noopener">Instagram @bravry_int</a></p>
+        <p class="kon-pod">Nowe modele i realizacje #bravrycraft.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer class="stopka">
   <div class="wrap st-in">
     <div class="st-marka">
-      <img src="img/logo-biale.png" alt="BRAVRY" width="640" height="177" loading="lazy">
-      <p>Rękawice i odzież dla bramkarzy.<br>Bravery Sportswear Group sp. z o.o., Warszawa</p>
+      <span class="logo logo-stopka"><svg class="logo-znak" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="9" fill="#1463d8"/><g fill="#fff"><rect x="13" y="9" width="5.6" height="18" rx="2.8"/><rect x="19.6" y="6.5" width="5.6" height="20" rx="2.8"/><rect x="26.2" y="7.5" width="5.6" height="19" rx="2.8"/><rect x="32.8" y="11" width="5.4" height="16" rx="2.7"/><rect x="12.6" y="20" width="25.6" height="17" rx="6"/><rect x="5.5" y="21" width="5.6" height="14" rx="2.8" transform="rotate(-32 8.3 28)"/><rect x="14" y="36" width="22.5" height="7" rx="1.6"/></g></svg><span class="logo-txt">Rękawice<br>Bramkarskie</span></span>
+      <p>Sklep dla bramkarzy. Marka własna BRAVRY.<br>Bravery Sportswear Group sp. z o.o., Warszawa</p>
     </div>
-    <div>
-      <b>Sklep</b>
-      <a href="#/kolekcja">Rękawice</a><a href="#/kolekcja?junior">Junior</a><a href="#/odziez">Odzież</a><a href="#/rozmiar">Dobór rozmiaru</a>
-    </div>
-    <div>
-      <b>Zakupy</b>
-      <span>Dostawa i płatności</span><span>Zwroty i reklamacje</span><span>Regulamin</span><span>Polityka prywatności</span>
-    </div>
-    <div>
-      <b>Kontakt</b>
-      <a href="tel:+48574675325">574 675 325</a><a href="mailto:bravegk12@gmail.com">bravegk12@gmail.com</a><a href="https://www.instagram.com/bravry_int/" target="_blank" rel="noopener">Instagram</a>
-    </div>
+    <div><b>Sklep</b><a href="#/k/rekawice">Rękawice</a><a href="#/k/akcesoria">Akcesoria</a><a href="#/marki">Marki</a><a href="#/craft">#bravrycraft</a></div>
+    <div><b>Pomoc</b><a href="#/rozmiar">Dobór rozmiaru</a><span>Dostawa i płatności</span><span>Zwroty i reklamacje</span><span>Regulamin</span></div>
+    <div><b>Kontakt</b><a href="tel:+48574675325">574 675 325</a><a href="mailto:bravegk12@gmail.com">bravegk12@gmail.com</a><a href="https://www.instagram.com/bravry_int/" target="_blank" rel="noopener">Instagram</a></div>
   </div>
   <div class="wrap st-dol">
     <span>BLIK · Przelewy24 · Visa · Mastercard · InPost</span>
-    <span>Wizualizacja koncepcyjna sklepu. Ceny i dostępność rozmiarów przykładowe.</span>
+    <span>Wizualizacja koncepcyjna sklepu. Ceny, dostępność i marki inne niż BRAVRY są przykładowe.</span>
   </div>
 </footer>
 
@@ -406,7 +565,7 @@
       <p class="ks-dob-h">Dobierz do rękawic</p>
       <div class="ks-dob">
         <img src="img/skarpety-0s.webp" alt="" loading="lazy" width="400" height="500">
-        <div><b>Skarpety antypoślizgowe</b><span id="ksDobCena">39,00 zł</span>
+        <div><b>Skarpety antypoślizgowe BRAVRY</b><span id="ksDobCena">39,00 zł</span>
           <div class="ks-dob-roz"><button type="button" data-r="36-40">Dodaj 36-40</button><button type="button" data-r="41-45">Dodaj 41-45</button></div>
         </div>
       </div>
@@ -414,7 +573,7 @@
   </div>
   <div class="ks-pusty" id="ksPusty" hidden>
     <p>Koszyk jest pusty.</p>
-    <a class="btn btn-gl" href="#/kolekcja" id="ksDoSklepu">Zobacz rękawice</a>
+    <a class="btn btn-gl" href="#/k/rekawice" id="ksDoSklepu">Zobacz rękawice</a>
   </div>
   <div class="ks-dol" id="ksDol">
     <div class="ks-suma"><span>Suma</span><b id="ksSuma"></b></div>
@@ -424,7 +583,6 @@
   </div>
 </aside>
 
-<!-- tabela rozmiarów: okno -->
 <div class="okno" id="oknoTab" hidden role="dialog" aria-modal="true" aria-labelledby="oknoTabH">
   <div class="okno-in">
     <div class="ks-gora"><h2 id="oknoTabH">Tabela rozmiarów</h2><button type="button" class="ks-x" data-zamknij aria-label="Zamknij">×</button></div>
@@ -434,7 +592,6 @@
 </div>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-<script src="app.js?v=4"></script>
+<script src="app.js?v=11"></script>
 </body>
 </html>
